@@ -7,8 +7,9 @@
 .btn-primary {
   background: #e55473;
   color: white;
+  align-items: center;
   padding: 9px 17px;
-  height: 30px;
+  height: 33px;
   border-radius: 5px;
   font-size: 12px;
   border: none;
@@ -38,7 +39,7 @@
   height: 400px;
   padding: 50px 0 0 50px;
 }
-/* featured are */
+/* featured sec */
 .feature-text {
   text-align: center;
   width: 400px;
@@ -58,7 +59,8 @@
 }
 .fea-flower {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  padding: 0 100px;
   align-items: center;
 }
 .flower-div1 {
@@ -71,7 +73,7 @@
 }
 .pink-div img {
   height: 240px;
-  padding: 50px 30px 0 30px;
+  padding: 50px 20px 0 30px;
 }
 .sky-div {
   background: rgba(5, 151, 160, 0.15);
@@ -95,11 +97,28 @@
   display: flex;
   justify-content: space-evenly;
   margin-top: 10px;
-  padding: 0 100px;
+  
   text-decoration: underline;
 }
 .featured-sec {
   margin-bottom: 50px;
+}
+/* Faw sec */
+.faw-sec{
+  height: 250px;
+  background: rgba(39, 39, 39, 0.05);
+}
+.faw-cls {
+  display: flex;
+  text-align: center;
+  gap: 5rem; 
+  padding: 60px 0;
+}
+.faw-sec> .faw-cls{
+  justify-content: center;
+}
+.faw-sec> .faw-cls >div{
+  align-items: center;
 }
 /* hot deal section */
 .hot-deal-sec {
@@ -120,11 +139,12 @@
 .hot-img img {
   width: 200px;
   height: 250px;
-  padding: 100px 150px 100px 0;
+  padding: 80px 150px 100px 0;
 }
 /* insta area */
 .insta-sec,
-.deals-sec {
+.deals-sec,
+.faw-sec {
   margin: 0 150px 100px;
 }
 .insta-text {
